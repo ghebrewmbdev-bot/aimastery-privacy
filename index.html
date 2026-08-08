@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — AI Mastery by Weegix</title>
+<style>
+  :root{
+    --navy:#0B1F3A; --navy-light:#15315C; --teal:#14B8A6; --gold:#D4A94F;
+    --surface:#F7F8FA; --text:#1F2937; --text2:#5A6B85; --border:#E2E8F0;
+    --note-bg:#FFFBEB; --note-border:#D4A94F; --note-text:#6B4E00;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--surface); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,sans-serif;
+    line-height:1.65;
+  }
+  header{
+    background:linear-gradient(135deg,var(--navy),var(--navy-light));
+    color:#fff; padding:44px 24px 36px;
+  }
+  header .eyebrow{
+    font-size:12px; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--teal); font-weight:700; margin-bottom:8px;
+  }
+  header h1{ margin:0 0 8px; font-size:clamp(24px,4vw,34px); font-weight:800; }
+  header .updated{ color:#cbd5e1; font-size:13px; }
+  main{ max-width:760px; margin:0 auto; padding:36px 24px 80px; }
+  h2{
+    font-size:19px; font-weight:800; color:var(--navy);
+    margin:36px 0 12px; padding-bottom:8px; border-bottom:2px solid var(--teal);
+  }
+  h2:first-of-type{ margin-top:0; }
+  p{ margin:0 0 14px; font-size:15px; }
+  ul, ol{ margin:0 0 14px; padding-left:22px; }
+  li{ margin-bottom:6px; font-size:15px; }
+  a{ color:var(--teal); text-decoration:none; font-weight:600; }
+  a:hover{ text-decoration:underline; }
+  strong{ color:var(--navy); }
+  .devnote{
+    background:var(--note-bg); border:1px solid var(--note-border);
+    border-left:4px solid var(--note-border); border-radius:8px;
+    padding:14px 16px; margin:0 0 22px; font-size:13.5px; color:var(--note-text);
+  }
+  .devnote strong{ color:var(--note-text); }
+  .placeholder{
+    background:#FEE2E2; color:#991B1B; padding:1px 6px; border-radius:4px;
+    font-family:monospace; font-size:13px; font-weight:600;
+  }
+  .contact-card{
+    background:#fff; border:1px solid var(--border); border-radius:12px;
+    padding:20px 22px; margin-top:8px;
+  }
+  .contact-card p{ margin:0 0 4px; font-size:14px; }
+  footer{
+    text-align:center; padding:28px 24px; color:var(--text2); font-size:12.5px;
+    border-top:1px solid var(--border); margin-top:20px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">AI Mastery by Weegix</div>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: <span id="last-updated"></span></p>
+
+<script>
+  const lastModified = new Date(document.lastModified);
+  const formattedDate = lastModified.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+  document.getElementById('last-updated').textContent = formattedDate;
+</script>
+</header>
+
+<main>
+
+    <p>This Privacy Policy explains how Weegix Technology Solutions LLC ("Weegix," "we," "us," or "our") handles information in connection with the AI Mastery mobile application ("AI Mastery," "AI University," or "the App").</p>
+
+  <h2>1. Who We Are</h2>
+  <p>
+    Weegix Technology Solutions LLC<br>
+    Tinley Park, Illinois<br>
+    Contact: <a href="mailto:hello@weegix.com">hello@weegix.com</a><br>
+    Website: <a href="https://weegix.com">weegix.com</a>
+  </p>
+
+  <h2>2. Information We Collect</h2>
+
+  <p><strong>2.1 Information Stored Only On Your Device</strong></p>
+  <p>AI Mastery stores the following information locally on your device only, using standard device storage. This information is <strong>not</strong> transmitted to Weegix or any third party by the App itself:</p>
+  <ul>
+    <li>Your course, lesson, and project completion progress</li>
+    <li>Your quiz scores, quiz attempt history, and command-practice results</li>
+    <li>Your learning streak and experience points (XP)</li>
+    <li>Your notification preferences</li>
+    <li>Any prompts you save to the Prompt Library</li>
+  </ul>
+  <p>Uninstalling the App deletes this locally stored information. We do not currently offer account-based sync of this data across devices.</p>
+
+  <p><strong>2.2 Information Handled by Google Play Billing</strong></p>
+  <p>If you purchase a Premium subscription or unlock, that transaction is processed entirely by Google Play Billing. Weegix does not receive or store your payment card details. Google's handling of your payment information is governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+
+  <p><strong>2.3 Information Handled by Firebase</strong></p>
+  <p>The App uses Firebase (a Google service) for backend infrastructure. Depending on which features are active in your version of the App, this may include:</p>
+  <ul>
+    <li><strong>Firebase Authentication</strong> — if and when account sign-in is enabled in a future version, this would handle authentication credentials. As of this writing, the App does not require or offer account sign-in.</li>
+    <li><strong>Cloud Firestore / Firebase Storage</strong> — used to store and retrieve app content (such as course material or news updates) that is not specific to you personally.</li>
+  </ul>
+  <p>Firebase's handling of any data that passes through it is governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://firebase.google.com/terms">Firebase's own terms</a>.</p>
+
+ 
+
+  <p><strong>2.4 Information We Do NOT Collect</strong></p>
+  <p>The App does not access or collect:</p>
+  <ul>
+    <li>Your precise location</li>
+    <li>Your contacts</li>
+    <li>Your camera or photos (unless a future feature explicitly requests this permission, in which case this policy will be updated first)</li>
+    <li>Your microphone (unless you use a future voice feature that explicitly requests this permission)</li>
+  </ul>
+
+  <h2>3. How We Use Information</h2>
+  <p>Any information described above is used solely to:</p>
+  <ul>
+    <li>Let you track your own learning progress within the App</li>
+    <li>Process Premium purchases through Google Play Billing</li>
+    <li>Operate and improve the App's content and features</li>
+  </ul>
+  <p>We do not sell your information. We do not share your information with third parties for their own marketing purposes.</p>
+
+  <h2>4. Third-Party Links</h2>
+  <p>The App contains links to third-party websites (for example, AI tool providers listed in the AI Tools Directory, and articles in the AI News section). We are not responsible for the privacy practices of those third-party sites. We encourage you to review their privacy policies before providing any information to them.</p>
+
+  <h2>5. Children's Privacy</h2>
+  <p>AI Mastery is designed for a general audience interested in learning about AI and is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us at <a href="mailto:hello@weegix.com">hello@weegix.com</a> and we will address it.</p>
+
+  <h2>6. Data Security</h2>
+  <p>We take reasonable measures to protect information handled by the App. However, no method of electronic storage or transmission is 100% secure, and we cannot guarantee absolute security.</p>
+
+  <h2>7. Your Choices</h2>
+  <ul>
+    <li>You can clear all locally stored App data at any time by uninstalling the App, or by clearing the App's storage in your device settings.</li>
+    <li>You can manage or cancel a Premium subscription through your Google Play account settings at any time.</li>
+    <li>You can turn off notification preferences within the App's Settings screen.</li>
+  </ul>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will update the "Last updated" date at the top of this document when we do. Continued use of the App after a change constitutes acceptance of the updated policy.</p>
+
+  <h2>9. Contact Us</h2>
+  <div class="contact-card">
+    <p><strong>Weegix Technology Solutions LLC</strong></p>
+    <p>Email: <a href="mailto:ghebrewmbdev@gmail.com">ghebrewmbdev@gmail.com</a></p>
+    <p>Website: <a href="https://weegix.com">weegix.com</a></p>
+  </div>
+
+</main>
+
+<footer>AI Mastery by Weegix — Privacy Policy</footer>
+
+</body>
+</html>
